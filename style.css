@@ -11,7 +11,7 @@ body {
     background-color: blue;
     min-width: 320px;
     max-width: 425px;
-    min-height: 100vh;
+    min-height: 100vh; 
   }
 
   .container {
@@ -22,10 +22,10 @@ body {
   .Main {
     min-width: 320px;
     max-width: 425px;
-    min-height: 100vh;
+    min-height: 100vh; 
     margin: auto;
     background-image: url(./images/mobile/image-header.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat; 
     font-family: 'Barlow', sans-serif;
   }
@@ -82,7 +82,7 @@ body {
    }
  
    .hero-text p  {
-    padding: 50px;
+   padding: 50px; 
    }
  
   .hero-brand{
@@ -110,7 +110,6 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(./images/mobile/image-graphic-design.jpg);
-    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat; 
   }
@@ -133,7 +132,6 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(./images/mobile/image-photography.jpg);
-    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat; 
   }
