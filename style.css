@@ -126,17 +126,15 @@ body {
 
   .graphics-design h2{
     align-items: center;
-    position: relative;
-    top:350px ;
-    padding-top: ;
+    /* position: relative;
+    top:350px ; */
+    padding-top: 300px ;
     font-size: 30px;
     font-family: 'Fraunces', serif;
   }
 
   .graphics-design  p{
     text-align: center;
-    position: relative;
-    top:350px ;
     padding: 0 30px;
     font-size: 15px;
     font-family: 'Barlow', sans-serif;
@@ -152,10 +150,9 @@ body {
 
   .photography h3{
     text-align: center;
-    position: relative;
-    top:400px ;
-  /* padding-top: 400px;  */
-    padding-left: 0px;
+    /* position: relative;
+    top:400px ; */
+    padding-top: 400px; 
     font-size: 30px;
     font-family: 'Fraunces', serif;
     
@@ -163,8 +160,7 @@ body {
 
   .photography p{
     text-align: center;
-    position: relative;
-    top: 400px;
+    /* padding-top: 400px;  */
     padding: 0 50px; 
     font-size: 13px;
     font-family: 'Barlow', sans-serif;
