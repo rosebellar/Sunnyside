@@ -79,9 +79,13 @@ body {
  
   }
 
+  img .arrow {
+    width: 20px;
+  }
+
   .hero-text h3 {
      font-size: 30px;
-     font-family: 'Barlow', sans-serif;
+     /* font-family: 'Barlow', sans-serif; */
      font-family: 'Fraunces', serif;
    }
  
@@ -117,19 +121,24 @@ body {
     background-image: url(./images/mobile/image-graphic-design.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
+    padding-top: 20px;
   }
 
-  .graphics-design h3{
+  .graphics-design h2{
     align-items: center;
-    padding-top: 400px;
+    position: relative;
+    top:350px ;
+    padding-top: ;
     font-size: 30px;
     font-family: 'Fraunces', serif;
   }
 
   .graphics-design  p{
     text-align: center;
-    padding: 0 50px;
-    font-size: 18px;
+    position: relative;
+    top:350px ;
+    padding: 0 30px;
+    font-size: 15px;
     font-family: 'Barlow', sans-serif;
   }
 
@@ -143,7 +152,9 @@ body {
 
   .photography h3{
     text-align: center;
-  padding-top: 400px; 
+    position: relative;
+    top:400px ;
+  /* padding-top: 400px;  */
     padding-left: 0px;
     font-size: 30px;
     font-family: 'Fraunces', serif;
@@ -152,23 +163,16 @@ body {
 
   .photography p{
     text-align: center;
+    position: relative;
+    top: 400px;
     padding: 0 50px; 
-    font-size: 18px;
+    font-size: 13px;
     font-family: 'Barlow', sans-serif;
   }
 
-  /* .soft-red {
-    padding: 0.5px 50px;
-    border: 2px;
-    width: 10%;
-    border-radius: 20%;
-    background-color: hsl(7, 99%, 70%);
-  } */
-  .peach-picture {
-    width: 100%;
-  }
-
+ 
   .testimonial-section {
+    padding-top: 5px;
     background-color: #fff;
     text-align: center;
   }
