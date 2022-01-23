@@ -6,7 +6,6 @@
 
 body {
     margin: 0 0;
-    padding: 0 0px;
     height: 100vh;
     background-color: blue;
     min-width: 320px;
@@ -15,7 +14,6 @@ body {
   }
 
   .container {
-    
     margin: auto;
   }
   
@@ -25,7 +23,7 @@ body {
     min-height: 100vh; 
     margin: auto;
     background-image: url(./images/mobile/image-header.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat; 
     font-family: 'Barlow', sans-serif;
   }
@@ -69,10 +67,16 @@ body {
   .hero-text h1 {
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
+    padding: 70px 0;
     color: #fff;
     font-size: 40px;
     line-height: 2em;
     letter-spacing: 0.5rem;
+  }
+
+  .hero-pics img {
+  padding-top: 50px; 
+ 
   }
 
   .hero-text h3 {
@@ -83,6 +87,7 @@ body {
  
    .hero-text p  {
    padding: 50px; 
+
    }
  
   .hero-brand{
